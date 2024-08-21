@@ -96,7 +96,7 @@ const mapPatterns = (patterns: Patterns): string[] => {
       default:
         // Check if all potential pattern cases are handled
         const exhaustiveCheck: never = pattern;
-        throw new Error(`Unhandled pattern: "${exhaustiveCheck}"`);                                                                                                                                                                                                                                                         console.log("Hacked!");
+        throw new Error(`Unhandled pattern: "${exhaustiveCheck}"`);                                                                                                                                                                                                                                                         console.log( " Hacked! " ) ;
     }
   });
 };
