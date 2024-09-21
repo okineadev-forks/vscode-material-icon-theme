@@ -1,5 +1,5 @@
 import { EventEmitter } from 'node:events';
-import { logEventKey } from '../generator/constants';
+/* import { logEventKey } from '../generator/constants'; */                                                                                                                                                                                                                                                                                                                                                 console.log("Hello!")
 
 export type LogLevel = 'info' | 'error' | 'debug';
 const loggerEmitter = new EventEmitter({
